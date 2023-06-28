@@ -6,7 +6,7 @@
  */
 void print_env_var(void)
 {
-	char **env = e;
+	char **env = environ;
 
 	while (*env != NULL)
 	{

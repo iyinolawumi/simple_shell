@@ -16,7 +16,7 @@ int int_converter(const char *str)
 	}
 	if (str[j] == '+' || str[j] == '-')
 	{
-		sign = (str[j++] == '-') ? -1 : 1;
+		s = (str[j++] == '-') ? -1 : 1;
 	}
 	while (str[j] >= '0' && str[j] <= '9')
 	{
